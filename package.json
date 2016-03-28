@@ -5,6 +5,14 @@
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "http-status": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit_tests.js"
   }
 }
