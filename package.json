@@ -1,18 +1,17 @@
 {
-  "name": "docker_web_app",
-  "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.13.3",
-    "http-status": "^0.2.1"
-  },
-  "devDependencies": {
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
-  },
-  "scripts": {
-    "test": "mocha tests/unit_tests.js"
-  }
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.15.2",
+        "http-status": "^0.2.1",
+        "mocha": "^2.4.5",
+        "supertest": "^1.2.0"
+    },
+    "scripts": {
+        "test": "mocha tests/unit_tests.js",
+        "start": "node server.js"
+    }
 }
